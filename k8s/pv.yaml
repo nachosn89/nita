@@ -6,9 +6,9 @@ metadata:
   labels:
     type: local
 spec:
-  storageClassName: manual
+  storageClassName: longhorn
   capacity:
-    storage: 20Gi
+    storage: 10Gi
   accessModes:
     - ReadWriteOnce
   hostPath:
