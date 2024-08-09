@@ -30,6 +30,6 @@ spec:
   selector:
     io.kompose.service: jenkins
   sessionAffinity: None
-  type: ClusterIP
+  type: LoadBalancer
 status:
   loadBalancer: {}

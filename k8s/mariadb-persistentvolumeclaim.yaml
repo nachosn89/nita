@@ -7,7 +7,7 @@ metadata:
     io.kompose.service: mariadb
   name: mariadb
 spec:
-  storageClassName: manual
+  storageClassName: longhorn
   accessModes:
     - ReadWriteOnce
   resources:
